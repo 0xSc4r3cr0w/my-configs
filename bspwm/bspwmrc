@@ -17,8 +17,17 @@ ${HOME}/.config/polybar/launch.sh
 bspc config top_padding 33
 bspc config bottom_padding 33
 
+# Setting the default window layout to TALL in all workspaces.
+bsp-layout set tall I
+bsp-layout set tall II
+bsp-layout set tall III
+bsp-layout set tall IV
+bsp-layout set tall V
+bsp-layout set tall VI
+bsp-layout set tall VII
+
 bspc config focused_border_color "#9D0006"
 
-feh --bg-center --no-fehbg ${HOME}/Pictures/linux.jpg
+feh --bg-center --no-fehbg ${HOME}/Pictures/chinatown.jpg
 
 emacs --daemon &
